@@ -1,11 +1,12 @@
 @media screen and (min-width: 160px) {
-
+.logo-desktop {display: none;}
 body {
 	background-color: white;
 }
 .container {
 	width: 100%;
 }
+
 .logo {
 	margin-top: 5%;
 	display: block;
@@ -14,7 +15,7 @@ body {
 	width: 50%;
 }
 .video-wrapper {
-	margin-top: 10%;
+	margin-top: 5%;
 	position: relative;
     padding-bottom: 56.25%;
  	
@@ -28,6 +29,8 @@ body {
 }
 .socials {
 	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
 
 	.fa-stack {
 		display: inline-block;
@@ -47,27 +50,33 @@ body {
 		font-size: 14px;
 		margin-top: 15%;
 	}
-	.static{
+	#static{
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
 		color: #818285;
 		margin-top: 10%;
 		font-size: 10px;
 		font-style: italic;
 		text-align: center;
+	a{	
+		text-decoration: none;
+
+		}
 	}
 }
 
 @media screen and (min-width: 480px) {
-	
+
 	body {
 		background-color: white;
 	}
-
-
 	.container {
 		width: 100%;
 	}
-	.logo {
-		margin-top: 5%;
+	.logo{
+		max-height: 170px;
+		max-width: 581px;
+		margin-top: 3%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -91,14 +100,17 @@ body {
 
 	footer {
 		#socialtext{
+			margin-top: 3%;
+			margin-right: 5%;
 			display: inline-block;
-			margin-top:5%;
-			color:#818285;
+			color:#818285; 
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+
 		}
 	}
 	.socials {
 		
-
 		.fa-stack {
 			display: inline-block;
 			padding: 5px;
@@ -112,11 +124,15 @@ body {
 		}
 	}
 		#static {
-			color: #818285;
+			font-family: Arial, Helvetica, sans-serif;
 			font-size: 14px;
 			font-style: italic;
 			text-align: center;
 			margin-top: 5%;
+			color: #818285;
+				a {	
+					text-decoration: none;
+				}
 		}
 }
 
